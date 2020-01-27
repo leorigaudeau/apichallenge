@@ -15,7 +15,6 @@ app.get("/reader/:start?/:end?", (req, res) => {
 
   pdfParser.on("pdfParser_dataError", errData => console.error(errData.parserError));
   pdfParser.on("pdfParser_dataReady", pdfData => {
-    console.log("ed");
 
     let start = req.params.start ? req.params.start : 0;
     console.log(start);
