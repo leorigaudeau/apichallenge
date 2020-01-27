@@ -2,9 +2,9 @@
   "name": "challenge48-dev",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "serve": "node server.js"
+    "serve": "node index.js"
   },
   "repository": {
     "type": "git",
